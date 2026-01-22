@@ -1,0 +1,78 @@
+
+<html lang="en">
+<head>
+<title>System Requirements for Chimera and ChimeraX</title>
+<link rel="stylesheet" type="text/css" href="docs/user/userdocs.css" />
+</head>
+<body>
+<a name="top"></a>
+
+<div style="text-align: center;">
+<h2>System Requirements for Chimera and ChimeraX
+  <a href="docs/user/index.html">
+    <img width="40px" src="docs/user/ChimeraX-docs-icon.svg" alt="ChimeraX docs
+icon"
+    title="User Guide Index"/></a>
+  <a href="https://www.rbvi.ucsf.edu/chimerax/">
+    <img width="32px" src="docs/user/ChimeraX-home-icon.svg" alt="ChimeraX home
+icon"
+    title="ChimeraX Home"/></a>
+</h2>
+</div>
+
+<ul class="none">
+<li><b>Supported operating systems:</b>
+<p>
+UCSF Chimera and ChimeraX downloads are available for current versions of 
+the Windows and macOS operating systems and some Linux distributions. 
+Versions of these operating systems that are past end-of-life 
+such as Windows 7 are not supported, and neither are old versions
+of these operating systems (even if not yet end-of-life)
+when required libraries (<i>e.g.</i>, the Qt window toolkit used by ChimeraX)
+are no longer available. See the download pages of the respective programs
+[<a href="/chimera/download.html">Chimera</a>]
+[<a href="/chimerax/download.html">ChimeraX</a>]
+for currently supported operating system versions.
+</p>
+<li><b>Hardware:</b>
+<p>
+Chimera and ChimeraX are real-time interactive 3D graphics applications. 
+The required level of graphics processor (GPU) performance depends on the 
+intended use. For uses with data of modest size (structures &lt; 50,000 atoms, 
+map size &lt; 256x256x256), any recent computer graphics hardware will suffice.
+A mid-level GPU is recommended for working with very large datasets, 
+and a higher-end GPU recommended for more demanding situations such as 
+using ChimeraX with 
+<a href="https://isolde.cimr.cam.ac.uk/static/isolde/doc-1.0b3/index.html"
+target="_blank">ISOLDE</a> for interactive dynamics with flexible fitting,
+or with virtual reality headsets.
+</p>
+<li><b>Not supported: Compute clusters, remote display, remote rendering, 
+and virtual machines</b>
+<p>
+We provide support only for uses where the application, the 
+graphics rendering, and the display are on a single desktop or laptop computer.
+Technologies that run the application on one computer or a cluster, but that 
+display or compute graphics on a different computer are not supported.
+Examples of unsupported configurations include X11 remote display, VirtualGL, 
+Microsoft Remote Desktop, and VNC.
+While users have successfully configured some of these unsupported 
+distributed computing technologies, ChimeraX makes extensive use of 
+3D OpenGL graphics rendering, which can be difficult to configure and 
+often provides unreliable or slow interactive performance when the rendering
+or display is not on the same computer that is running the application.
+Even if a user has the technical expertise to set up one of these
+unsupported configurations, we recommend against it because of the poor 
+interactive performance. We also do not support running Chimera or ChimeraX 
+on a virtual machine, as configuring graphics drivers to use GPU acceleration 
+on a virtual machine presents technical issues.
+The ChimeraX development team does not have the computer systems 
+on which to test these unsupported configurations.
+</p>
+<font size="-2">
+Revised 24-Feb-2023
+</font>
+</ul>
+
+</body>
+</html>
