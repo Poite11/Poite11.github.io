@@ -1,0 +1,32 @@
+<style>
+div {
+    border: 2px solid;
+    padding: 20px;
+    width: 300px;
+    resize: horizontal;
+    overflow: auto;
+}
+img {
+  float: left;
+  margin-right: 23px;
+  border: solid green;
+  padding: 2=px;
+  width: 489px;
+  height: 208px;
+
+}
+h1 {
+  font-family: Courier Oblique;
+  font-size: 40pt;
+  color: darkred;
+  font-style: italic;
+}
+a:hover {
+  color: #F00F00
+}
+h2 {
+  font-family: Courier Oblique;
+  font-size: 22pt;
+  font-style: oblique;
+}
+</style>
